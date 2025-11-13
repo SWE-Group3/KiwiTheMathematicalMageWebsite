@@ -1,0 +1,188 @@
+/* Resources Page Styles */
+
+/* Override body overflow to allow scrolling */
+body {
+    overflow-y: auto;
+    height: auto;
+    min-height: 100vh;
+}
+
+.game-title {
+    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.resources-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.resource-item {
+    border: 2px solid rgba(138, 92, 246, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(30, 5, 51, 0.7);
+    box-shadow: 0 4px 15px rgba(106, 130, 251, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.resource-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(106, 130, 251, 0.5);
+}
+
+.resource-preview {
+    width: 100%;
+    height: 600px;
+    background: rgba(45, 27, 105, 0.5);
+    border-bottom: 2px solid rgba(138, 92, 246, 0.5);
+}
+
+.resource-preview iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.resource-info {
+    padding: 20px;
+}
+
+.resource-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.3em;
+    color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resource-info p {
+    margin: 0 0 15px 0;
+    color: #e0d5ff;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: radial-gradient(circle at center,
+        #fff3b0 0%,
+        #ffd36a 25%,
+        #ff9b00 50%,
+        #ff3c00 75%,
+        #5c0000 100%
+    );
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 155, 0, 0.7);
+}
+
+/* Placeholder styling */
+.resource-item.placeholder {
+    opacity: 0.7;
+}
+
+.resource-preview.placeholder-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #8b5cf6;
+    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.placeholder .download-btn {
+    background: #666;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.resource-info .coming-soon {
+    color: #ffd36a;
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+/* Bibliography Section */
+.bibliography-section {
+    margin-top: 60px;
+    padding: 30px;
+    background: rgba(30, 5, 51, 0.7);
+    border: 2px solid rgba(138, 92, 246, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(106, 130, 251, 0.3);
+}
+
+.bibliography-section h2 {
+    color: #f2f2f2;
+    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bibliography-content {
+    color: #e0d5ff;
+    min-height: 50px;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.list-group {
+    margin-top: 10px;
+}
+
+.gray{
+    background-color: gray;
+}
