@@ -58,13 +58,13 @@ body {
 /* Add a color to the active/current link */
 .topnav a.active {
     background: radial-gradient(circle at center,
-        #fff3b0 0%,
-        #ffd36a 25%,
-        #ff9b00 50%,
-        #ff3c00 75%,
-        #5c0000 100%
+        #d4a574 0%,
+        #b8884a 25%,
+        #a0672a 50%,
+        #8b4513 75%,
+        #3d2817 100%
     );
-  color: black;
+  color: white;
 }
 
 .game-image {

@@ -84,13 +84,13 @@ body {
     display: inline-block;
     padding: 10px 20px;
     background: radial-gradient(circle at center,
-        #fff3b0 0%,
-        #ffd36a 25%,
-        #ff9b00 50%,
-        #ff3c00 75%,
-        #5c0000 100%
+        #d4a574 0%,
+        #b8884a 25%,
+        #a0672a 50%,
+        #8b4513 75%,
+        #3d2817 100%
     );
-    color: black;
+    color: white;
     text-decoration: none;
     border-radius: 4px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -99,7 +99,7 @@ body {
 
 .download-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(255, 155, 0, 0.7);
+    box-shadow: 0 0 15px rgba(139, 69, 19, 0.7);
 }
 
 /* Placeholder styling */
