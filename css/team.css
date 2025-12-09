@@ -20,7 +20,7 @@ body {
 
 /* Game Title */
 .game-title {
-    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
+    font-family: 'Mystery Quest', 'Old English Text MT', 'Blackletter', serif;
     text-align: center;
     color: #f2f2f2;
     font-size: 3rem;
@@ -43,8 +43,7 @@ body {
     padding: 14px 0;      /* remove horizontal padding */
     text-decoration: none;
     font-size: 17px;
-    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
-
+    font-family: 'Mystery Quest', 'Old English Text MT', 'Blackletter', serif;
 
 }
 
@@ -77,11 +76,11 @@ body {
 }
 
 .gameDescription {
-   text-align: center;
-   max-width: 400px;
-   margin: 0 auto;
-   font-size: 17px;
-   font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 17px;
+    font-family: 'Mystery Quest', 'Old English Text MT', 'Blackletter', serif;
 }
 
 .sub-title {

@@ -8,7 +8,7 @@ body {
 }
 
 .game-title {
-    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
+    font-family: 'Mystery Quest', 'Old English Text MT', 'Blackletter', serif;
     text-align: center;
     color: #f2f2f2;
     font-size: 3rem;
@@ -142,7 +142,7 @@ body {
 
 .bibliography-section h2 {
     color: #f2f2f2;
-    font-family: 'UnifrakturMaguntia', 'Old English Text MT', 'Blackletter', serif;
+    font-family: 'Mystery Quest', 'Old English Text MT', 'Blackletter', serif;
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
